@@ -6,7 +6,7 @@ package top.linhuarui.thinking_in_java.chapter3.section3_1_5;
 * @desc equivalence practice with Integer object.
 * @version 1.0 
 */
-public class Equivalence {
+public class Equivalence { 
 
     public static void main (String[] args) {
         Integer n1 = new Integer(47);

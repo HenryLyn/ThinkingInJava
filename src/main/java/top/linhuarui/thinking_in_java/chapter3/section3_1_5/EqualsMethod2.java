@@ -6,7 +6,7 @@ package top.linhuarui.thinking_in_java.chapter3.section3_1_5;
 * @desc Practice equals method in user-defined object.
 * @version 1.0
 */
-public class EqualsMethod2 {
+public class EqualsMethod2 { 
 
     public static void main (String[] args) {
         Value v1 = new Value();

@@ -6,7 +6,7 @@ package top.linhuarui.thinking_in_java.chapter3.section3_1_5;
 * @desc practice equals method.
 * @version 1.0
 */
-public class EqualsMethod {
+public class EqualsMethod { 
     public static void main (String[] args) {
         Integer n1 = new Integer(47);
         Integer n2 = new Integer(47);
