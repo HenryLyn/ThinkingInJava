@@ -1,4 +1,4 @@
-package top.linhuarui.thinking_in_java.chapter3.section3_1_8;
+package top.linhuarui.thinking_in_java.chapter3.section3_1.section3_1_8;
 
 /**
 * @author LHR

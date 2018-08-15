@@ -1,4 +1,4 @@
-package top.linhuarui.thinking_in_java.chapter3.section3_1_6;
+package top.linhuarui.thinking_in_java.chapter3.section3_1.section3_1_6;
 
 public class ShortCircuit {
 
