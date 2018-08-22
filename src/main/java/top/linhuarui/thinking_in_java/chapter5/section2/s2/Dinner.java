@@ -1,6 +1,6 @@
-package top.linhuarui.thinking_in_java.chapter5.section2;
+package top.linhuarui.thinking_in_java.chapter5.section2.s2;
 
-import top.linhuarui.thinking_in_java.chapter5.section2.dessert.Cookie;
+import top.linhuarui.thinking_in_java.chapter5.section2.s2.dessert.Cookie;
 
 /**
 * @author LHR
