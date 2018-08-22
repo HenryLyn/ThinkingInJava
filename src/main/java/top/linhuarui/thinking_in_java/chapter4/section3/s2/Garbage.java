@@ -29,10 +29,12 @@ public class Garbage {
                         ", total finalized = " + Chair.finalized
         );
         if (args[0].equals("before")) {
-            System.out.println("gc():");
-            System.gc();
             System.out.println("runFinalization():");
             System.runFinalization();
+            System.out.println("gc():");
+            System.gc();
+//            System.out.println("runFinalization():");
+//            System.runFinalization();
         }
         System.out.println("bye!");
         if (args[0].equals("after")) {
@@ -62,7 +64,7 @@ class Chair {
         if (!gcrun) {
             gcrun = true;
             System.out.println(
-                    "Beginning to finalize after " + created + "Chairs have been created"
+                    "Beginning to finalize after " + created + " Chairs have been created"
             );
         }
         if (i == 47) {
