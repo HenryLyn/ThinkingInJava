@@ -22,6 +22,7 @@ public class Util {
     * @modify 
     *   @date 
     */
+    @Deprecated
     public static void prt(String s) {
         System.out.println(s);
     }
