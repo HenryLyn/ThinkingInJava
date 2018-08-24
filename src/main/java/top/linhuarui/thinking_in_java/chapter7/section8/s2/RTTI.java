@@ -8,7 +8,7 @@ package top.linhuarui.thinking_in_java.chapter7.section8.s2;
 * @modify
 *   @date
 */
-public class PTTI {
+public class RTTI {
     public static void main (String[] args) {
         Useful[] x = {
                 new Useful(),
