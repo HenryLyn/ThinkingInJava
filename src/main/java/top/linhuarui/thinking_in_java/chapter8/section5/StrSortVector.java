@@ -12,7 +12,7 @@ import java.util.Enumeration;
 */
 public class StrSortVector {
     private SortVector v = new SortVector(
-            // Anoymous inner class:
+            // Anonymous inner class:
             new Compare() {
                 @Override
                 public boolean lessThan(Object lhs, Object rhs) {
