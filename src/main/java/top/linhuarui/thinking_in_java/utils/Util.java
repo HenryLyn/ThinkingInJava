@@ -1,5 +1,10 @@
 package top.linhuarui.thinking_in_java.utils;
 
+import top.linhuarui.thinking_in_java.chapter8.section7.s1.Collection1;
+
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.Random;
 
 /**
@@ -39,5 +44,55 @@ public class Util {
     */
     public static int randInt (int mod) {
         return Math.abs(new Random().nextInt()) % mod + 1;
+    }
+
+    /**
+     * @author LHR
+     * @date 2018/8/31
+     * @desc  Producing a Set of the keys:
+     * @params [m]
+     * @returns void
+     * @version 1.0
+     * @modify
+     *   @date
+     */
+    public static void printKeys (Map m) {
+        System.out.print("Size = " + m.size() + ", ");
+        System.out.print("Keys: ");
+        Collection1.print(m.keySet());
+    }
+
+    /**
+     * @author LHR
+     * @date 2018/8/31
+     * @desc Producing a Collection of the values:
+     * @params [m]
+     * @returns void
+     * @version 1.0
+     * @modify
+     *   @date
+     */
+    public static void printValues (Map m) {
+        System.out.print("Values: ");
+        Collection1.print(m.values());
+    }
+
+    /**
+     * @author LHR
+     * @date 2018/8/31
+     * @desc Iterating through Map.Entry objects (pairs):
+     * @params [m]
+     * @returns void
+     * @version 1.0
+     * @modify
+     *   @date
+     */
+    public static void print (Map m) {
+        Collection entries = m.entrySet();
+        Iterator it = entries.iterator();
+        while (it.hasNext()) {
+            Map.Entry e = (Map.Entry) it.next();
+            System.out.println("Key = " + e.getKey() + ", Value = " + e.getValue());
+        }
     }
 }
